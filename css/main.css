@@ -1,0 +1,154 @@
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+				BODY
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+body {
+	text-align: center;
+	font-size: 62.5%;
+	background: url(../img/rockywall.png);
+}
+
+#wrap {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+				FONTS
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+h2 {
+	font-family: 'Italianno', cursive;
+	font-size: 3.000em
+}
+
+h3 {
+	font-family: 'Italianno', cursive;
+	font-size: 2.500em
+}
+
+h4 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 2.000em
+}
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 1.600em
+}
+
+a {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 1.600em
+}
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+				NAVIGATION
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+#logo {
+	padding: 10px 0 0 0;
+}
+
+#navigation {
+	height: 150px;
+	background: url(../img/grunge.png) no-repeat;
+	text-align: center;
+}
+
+#nav ul {
+
+}
+
+#nav li {
+	display: inline;
+	margin: 0 20px 0 20px;
+}
+
+#nav a {
+	text-decoration: none;
+	font-size: 1.800em;
+	color: #000;
+}
+
+#nav a:hover {
+	color: #5f098f;
+	border-bottom: 1px solid #5f098f;
+}
+
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+				Sections
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+.section {
+	height: 600px;
+	padding: 10px 0 10px 0;
+}
+
+.section h2 {
+	text-align: left;
+	margin: 5px 0 0 40px;
+}
+
+
+/*	=	=	=	first	=	=	=	*/
+
+.banner { 
+	position: relative; 
+	overflow: auto; 
+}
+
+.banner li { 
+	list-style: none; 
+	width: 960px;
+	height: 400px;
+	background-color: rgba(145, 145, 145, 0.2);
+}
+        
+.banner ul li { 
+	float: left; 
+}
+
+
+/*	=	=	=	 Project	=	=	=	*/
+
+#gallery {
+	margin: 15px 0 0 120px;
+}
+
+.imgHolder {
+	width: 480px;
+	height: 200px;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+.display {
+	-webkit-box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.68);
+	   -moz-box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.68);
+            box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.68);
+
+    position: relative;
+}
+
+h4 {
+	position: absolute;
+	z-index: 10;
+	margin: -40px 0 0 100px;
+}
+
+
+h4 span {
+	color: white; 
+   font-size: 1.200em; 
+   letter-spacing: -1px;  
+   width: 350px;
+   height: 150px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
