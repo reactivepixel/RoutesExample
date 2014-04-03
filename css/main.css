@@ -84,8 +84,16 @@ a {
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
 .section {
-	height: 600px;
-	padding: 10px 0 10px 0;
+	padding: 10px 0 50px 0;
+}
+
+#projects {
+	height: 700px;
+	margin-bottom: 50px;
+}
+
+#space {
+	height: 100px;
 }
 
 .section h2 {
@@ -117,7 +125,6 @@ a {
 
 #gallery {
 	margin: 15px 0 0 120px;
-	padding: 5px 0 50px 0;
 }
 
 .imgHolder {
