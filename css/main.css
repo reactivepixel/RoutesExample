@@ -58,22 +58,21 @@ a {
 	text-align: center;
 }
 
-#nav ul {
-
+.nav ul {
 }
 
-#nav li {
+.nav li {
 	display: inline;
 	margin: 0 20px 0 20px;
 }
 
-#nav a {
+.nav a {
 	text-decoration: none;
 	font-size: 1.800em;
 	color: #000;
 }
 
-#nav a:hover {
+.nav a:hover {
 	color: #5f098f;
 	border-bottom: 1px solid #5f098f;
 }
@@ -84,7 +83,7 @@ a {
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
 .gallery {
-	margin: 10px 0 0 12%;
+	margin: 10px 0 50px 12%;
 }
 
 .gallery h3{
@@ -116,5 +115,19 @@ a {
 .gallItem span {
 	width: 350px;
 }
+
+
+/*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
+				Footer
+=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
+
+#footer {
+	clear: left;
+	height: 100px;
+	padding: 40px 0 0 0;
+}
+
+
+
 
 
