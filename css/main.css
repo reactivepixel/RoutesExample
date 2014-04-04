@@ -10,7 +10,6 @@ body {
 #wrap {
 	width: 960px;
 	margin: 0 auto;
-	text-align: center;
 }
 
 
@@ -20,28 +19,29 @@ body {
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
 h2 {
-	font-family: 'Italianno', cursive;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 3.000em
 }
 
 h3 {
-	font-family: 'Italianno', cursive;
-	font-size: 2.500em
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 2.500em;
+	margin: 0 0 10px 0;
 }
 
 h4 {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-size: 2.000em
+	font-size: 2.000em;
 }
 
-p {
+p, span {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-size: 1.600em
+	font-size: 1.600em;
 }
 
 a {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-size: 1.600em
+	font-size: 1.600em;
 }
 
 /*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
@@ -80,83 +80,41 @@ a {
 
 
 /*	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=
-				Sections
+				Gallery
 =	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	=	*/
 
-.section {
-	padding: 10px 0 50px 0;
+.gallery {
+	margin: 10px 0 0 12%;
 }
 
-#projects {
-	height: 700px;
-	margin-bottom: 50px;
-}
-
-#space {
-	height: 100px;
-}
-
-.section h2 {
+.gallery h3{
 	text-align: left;
-	margin: 5px 0 0 40px;
 }
 
-
-/*	=	=	=	first	=	=	=	*/
-
-.banner { 
-	position: relative; 
-	overflow: auto; 
-}
-
-.banner li { 
-	list-style: none; 
-	width: 960px;
-	height: 400px;
-	background-color: rgba(145, 145, 145, 0.2);
-}
-        
-.banner ul li { 
-	float: left; 
-}
-
-
-/*	=	=	=	 Project	=	=	=	*/
-
-#gallery {
-	margin: 15px 0 0 120px;
-}
-
-.imgHolder {
-	width: 480px;
-	height: 200px;
+.gallItem {
+	width: 470px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.3);
 	float: left;
-	margin: 0 0 20px 0;
+
+	margin: 5px 5% 10px 0;
+
+
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.55);
+	   -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.55);
+		    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.55);
 }
 
-.display {
-	-webkit-box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.68);
-	   -moz-box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.68);
-            box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.68);
-
-    position: relative;
+.gallItem h4 {
+	padding: 5px 0 3px 10px;
 }
 
-h4 {
-	position: absolute;
-	z-index: 10;
-	margin: -40px 0 0 100px;
+.gallImg {
+	padding: 2px 0 3px 0;
 }
 
-
-h4 span {
-	color: white; 
-   font-size: 1.200em; 
-   letter-spacing: -1px;  
-   width: 350px;
-   height: 150px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
+.gallItem span {
+	width: 350px;
 }
+
 
